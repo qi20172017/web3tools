@@ -1,4 +1,6 @@
-from setuptools import setup, find_packages
+"""Web3tools package setup configuration."""
+
+from setuptools import find_packages, setup
 
 setup(
     name="web3tools",
@@ -10,9 +12,9 @@ setup(
         "eth-utils>=2.3.1",
         "python-dotenv>=1.0.1",
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Minner",
+    author_email="xiaoqideguge@gmail.com",
     description="A collection of Web3 tools",
     keywords="web3, ethereum, blockchain",
     python_requires=">=3.9",
-) 
+)

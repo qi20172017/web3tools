@@ -34,4 +34,9 @@ ENV/
 *.swo
 
 # 其他
-.DS_Store 
+.DS_Store
+
+# 钱包信息
+docs/wallet_info.md
+wallet_info.*
+*wallet*info*
